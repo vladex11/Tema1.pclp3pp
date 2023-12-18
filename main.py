@@ -41,7 +41,7 @@ class Manager(Employee):
         Manager.mgr_count += 1
 
     def display_employee(self):
-        x = 10 % 3
+        x = 6 % 3
         if x == 0:
             print(f"Name: {self.name}")
         if x == 1:
@@ -50,7 +50,7 @@ class Manager(Employee):
             print(f"Department: {self.department}")
 
 #main.py
-#Y/3 = 3.33 => voi crea 4 manageri(rotunjire prin adaos :) )
+#X/3 = 2 => programul va afisa doar numele angajatului
 
 manager1=Manager("Ionescu Ion", 2200, "Finante")
 manager2=Manager("Popescu Ion", 2500, "IT")
