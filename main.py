@@ -51,6 +51,7 @@ class Manager(Employee):
 
 #main.py
 #X/3 = 2 => programul va afisa doar numele angajatului
+#Y/3 = 3.33 => Voi crea 4 obiecte ale clasei Manager(rotunjire prin adaos :) )
 
 manager1=Manager("Ionescu Ion", 2200, "Finante")
 manager2=Manager("Popescu Ion", 2500, "IT")
